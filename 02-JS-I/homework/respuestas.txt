@@ -1,0 +1,21 @@
+nstrucciones
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Variables
+Strings
+Funciones (argumentos, return)
+Declaraciones if
+Valores booleanos (true, false)
+
+variables : Tienen como fijo un nombre que define a la variable , al cambiar el resultado cambia esa variable  
+ . ejemplo: var nombre = "juan"
+ 
+ Strings ; son palabras dentro del codigo y se diferencian por estar entre comilla 
+
+el argumento es la variable que vamos a usar para llamar a una funcion 
+
+return es lo que va a devolver la funcion al llamarla 
+
+if es operador para control de flujos 
+
+los valores booleanos son los que definen si la variable que se ingresa es verdadera o falsa  (true o false)
