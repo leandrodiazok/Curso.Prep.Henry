@@ -52,29 +52,38 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-
+  return palabras.join(" "),
 }
 
 function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
-  if(array.length = elemento);
-  return "true"
+  for (var i=0 ; i < array.length ; i++){
+
+    if (array[i] === elemento) {
+        return true
+    }
+   }
+   return false
 }
-  else if(array.length !== elemento)
 
 function agregarNumeros(numeros) {
   // "array" debe ser una matriz de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
-  while(nemero % 2 == 0)
+  var suma=0;
+for(var i = 0 ; 0< numeros.length ; i ++ ){
+    suma = suma + numeros [i];
+}
+return suma
 }
 
 function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
+  return agregarNumeros(resultadosTest) / resultadosTest.length;
 }
 
 function numeroMasGrande(numeros) {
